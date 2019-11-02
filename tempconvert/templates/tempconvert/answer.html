@@ -9,8 +9,7 @@
 </head>
 <body>
 <h1>Enter the temperature</h1>
-<form action="submit" method="post">
-    {% csrf_token %}  
+<form action="submit" method="post">  
     <input type="number" name="temperature"><br>
     <input type="submit" name="Convert_to_Fahrenheit" value="Convert to Fahrenheit">
     <input type="submit" name="Convert_to_Celsius" value="Convert to Celsius">
