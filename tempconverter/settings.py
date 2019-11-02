@@ -25,7 +25,7 @@ SECRET_KEY = '2n)1=knz!z(b!@nlx*pjj#27l^w@_ih%nn^%6neuv5-0!+2ev)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
